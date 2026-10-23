@@ -2,7 +2,7 @@
 
 This repository is a progressive, hands-on project that demonstrates **how developer documentation can evolve from human-readable content into agent-consumable infrastructure.**
 
-It is a direct extension of an earlier project, [`End-to-End-Documnetation-Pipeline`](https://github.com/PrineetKaur/End-to-End-Documentation-Pipeline), which focused on how documentation gets *created*: a governed pipeline taking a structured spec through deterministic generation and optional AI enhancement. This repository picks up where that one leaves off, assuming the documentation already exists, and asks a different question: once a doc exists, how is it served, diagnosed, and kept trustworthy, for both human developers and AI agents.
+It is a direct extension of an earlier project, [`End-to-End-Documentation-Pipeline`](https://github.com/PrineetKaur/End-to-End-Documentation-Pipeline), which focused on how documentation gets *created*: a governed pipeline taking a structured spec through deterministic generation and optional AI enhancement. This repository picks up where that one leaves off, assuming the documentation already exists, and asks a different question: once a doc exists, how is it served, diagnosed, and kept trustworthy, for both human developers and AI agents.
 
 The goal is to demonstrate how documentation infrastructure should evolve:
 
@@ -20,7 +20,7 @@ Documentation infrastructure spans more ground than any single repository can de
 
 | Lifecycle stage | Covered by | What it addresses |
 |---|---|---|
-| **Create** | [`End-to-End-Documnetation-Pipeline`](https://github.com/PrineetKaur/End-to-End-Documentation-Pipeline) | Turning a structured spec into a governed doc, through deterministic generation and optional AI enhancement |
+| **Create** | [`End-to-End-Documentation-Pipeline`](https://github.com/PrineetKaur/End-to-End-Documentation-Pipeline) | Turning a structured spec into a governed doc, through deterministic generation and optional AI enhancement |
 | **Serve** | This repository (Modules 1 and 2) | Getting existing documentation in front of the right person (or agent) through search, onboarding, changelogs, and migration guidance |
 | **Diagnose** | This repository (Modules 3 and 4) | Finding where documentation fails a real user, through structured error diagnostics and coverage gap detection |
 | **Maintain** | Both, for different things | The Pipeline repo watches whether generated docs have drifted from their source spec. This repository's `check_doc_coverage` tool watches whether real user questions are going unanswered, a downstream, usage-driven signal rather than a source-comparison one |
